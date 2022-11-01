@@ -18,11 +18,11 @@ a {
     position: relative;  
 
 }   
-
+/*
 .background-img {
     width: 100%;
 
-}
+} */
 
 .nav-bar {
     height: 100px;
@@ -79,3 +79,69 @@ a {
     color: white;
 }
 
+.part-2 {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10% 0 10%;
+    column-gap: 30px;
+}
+
+.part-2-headers {
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+
+.skills {
+    list-style-type: none; 
+}
+.part-2-img {
+    height: 400px;
+    width: 330px;
+    opacity: 0.9;
+}
+
+.writing-prg {
+    height: 7px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+.writing-prg-ins-1 {
+    background-color: #01d28e;
+    width: 83%;
+    height: 100%;
+}
+
+.writing-prg-ins-2 {
+    background-color: #01d28e;
+    width: 67%;
+    height: 100%;
+}
+
+.writing-prg-ins-3 {
+    background-color: #01d28e;
+    width: 40%;
+    height: 100%;
+}
+.writing-prg-ins-4 {
+    background-color: #01d28e;
+    width: 70%;
+    height: 100%;
+}
+
+.l4 {
+    height: 50px;
+    width: 180px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid;
+    border-radius: 35px;
+    color: white;
+    background-color: #01d28e;
+
+}
