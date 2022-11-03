@@ -143,5 +143,75 @@ a {
     border-radius: 35px;
     color: white;
     background-color: #01d28e;
+}
+
+.part-3 {
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+.services {
+    font-size: 16px;
+}
+
+.lines {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: aquamarine;
+}
+
+.services-dec-1 {
+    height: 2px;
+    width: 48px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.services-dec-2 {
+    height: 2px;
+    width: 24px;
+    background-color: black;
+}
+
+.product-cards {
+    height: 60vh;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.product-card-1 {
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    padding-top: 20px;
+
+}
+.product-card-2 {
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    padding-top: 20px;
+
+}
+.product-card-3 {
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    padding-top: 20px;
+
+}
+
+.product-card-4 {
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    padding-top: 20px;
 
 }
