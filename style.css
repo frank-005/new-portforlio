@@ -7,7 +7,7 @@
 a {
     text-decoration: none;
     color: white;
-    }
+}
 
 .part-1 {
     background-image: url("imgs/background-img.jpg");
@@ -15,8 +15,7 @@ a {
     background-size: cover;
     background-position: center;
     color: white;
-    position: relative;  
-
+    position: relative;
 }   
 /*
 .background-img {
@@ -30,7 +29,6 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px 0 20px;
-
 }
 
 .nav-links {
@@ -38,8 +36,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    list-style-type: none; 
-      
+    list-style-type: none;      
 }
 
 .hero.name {
@@ -52,8 +49,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 500px;  
-    
+    height: 500px;     
 }
 
 .l1, .l2, .l3 {
@@ -91,17 +87,18 @@ a {
 
 .part-2-headers {
     font-size: 22px;
-    font-weight: 600;
-    
+    font-weight: 600;    
 }
 
 .skills {
     list-style-type: none; 
 }
+
 .part-2-img {
     height: 400px;
     width: 330px;
     opacity: 0.9;
+    border-radius: 4px;
 }
 
 .writing-prg {
@@ -146,72 +143,48 @@ a {
 }
 
 .part-3 {
-    height: 90vh;
-    background-color: rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;  
+    background-color: hsla(0, 0%, 0%, 0.07);
+    height: 65vh;
 }
 
 .services {
-    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 .lines {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: aquamarine;
+   width: 50%;
+   margin: auto;   
 }
 
 .services-dec-1 {
     height: 2px;
-    width: 48px;
-    background-color: black;
+    width: 50px;
+    background-color: hsla(0, 0%, 0%, 0.8);
     margin-bottom: 10px;
+    margin: 0 auto 0 auto;
 }
 
 .services-dec-2 {
     height: 2px;
-    width: 24px;
-    background-color: black;
+    width: 80px;
+    background-color: hsla(0, 0%, 0%, 0.8);
+    margin: 4px auto 0 auto;
 }
 
 .product-cards {
-    height: 60vh;
-    width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     text-align: center;
+    margin: 80px 40px 0 40px;
 }
 
-.product-card-1 {
+.product-card-1, .product-card-2, .product-card-3, .product-card-4 {
     height: 200px;
     width: 250px;
     background-color: white;
     padding-top: 20px;
-
-}
-.product-card-2 {
-    height: 200px;
-    width: 250px;
-    background-color: white;
-    padding-top: 20px;
-
-}
-.product-card-3 {
-    height: 200px;
-    width: 250px;
-    background-color: white;
-    padding-top: 20px;
-
-}
-
-.product-card-4 {
-    height: 200px;
-    width: 250px;
-    background-color: white;
-    padding-top: 20px;
-
+    margin: 0 20px 0 20px;
+    border-radius: 6px;
 }
