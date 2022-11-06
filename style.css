@@ -2,6 +2,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -188,3 +189,24 @@ a {
     margin: 0 20px 0 20px;
     border-radius: 6px;
 }
+
+.part-4 {
+    height: 100vh;
+    text-align: center;
+    padding-top: 15vh;
+    font-size: 26px;
+}
+
+.work-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 150px;
+}
+
+.work-img {
+    height: 200px;
+    width: 320px;
+    border-radius: 4px;
+    margin: 0 10px 40px 0;
+}
+
