@@ -191,7 +191,7 @@ a {
 }
 
 .part-4 {
-    height: 100vh;
+    height: 110vh;
     text-align: center;
     padding-top: 15vh;
     font-size: 26px;
@@ -210,3 +210,15 @@ a {
     margin: 0 10px 40px 0;
 }
 
+.part-5 {
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef;
+}
+
+.prt-5-item {
+    margin-right: 100px;
+}
